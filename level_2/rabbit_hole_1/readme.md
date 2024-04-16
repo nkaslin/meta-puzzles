@@ -10,7 +10,7 @@ Assuming you can choose which page you begin the session on, what's the maximum 
 
 ## Constraints
 
-$2 \leq  N \leq 500000 $ \
+$2 \leq  N \leq 500000$ \
 $1 \leq  L_i \leq N$ \
 $L_i \neq i$
 
