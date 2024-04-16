@@ -10,13 +10,22 @@ Assuming the frogs work together optimally when deciding which frog should hop d
 
 ## Constraints
 
-$2 \leq  N \leq 10^{12} \\$
-$1 \leq  F \leq 5 \cdot 10^5 \\$
+$2 \leq  N \leq 10^{12}$\
+$1 \leq  F \leq 500000$\
 $1 \leq  P_i \leq N-1$
 
 
 ## Solution
 <details>
   <summary>Spoiler</summary>
-  todo
+  If we forget the numbers of the frogs and look at them as X and look at empty spaces as . we can clearly see, that a group of frogs (no matter how large) can move one lily pad at a time as a group if the last frog simply jumps to the front.
+  
+  Example: \
+  XXX..... \
+  .XXX.... \
+  ..XXX... \
+  ...XXX.. \
+  etc. 
+
+  Therefore, getting the solution is the same as the frog that is furthest away just jumping on all the lily pads towards the goal.
 </details>
