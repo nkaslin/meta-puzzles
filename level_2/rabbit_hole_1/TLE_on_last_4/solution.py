@@ -59,7 +59,7 @@ def getMaxVisitableWebpages(N: int, L: List[int]) -> int:
 
 
 if __name__ == "__main__":
-    L = [2,4,2,3,1,1,6]
+    L = [2, 4, 2, 3, 1, 1, 6]
     L = [4, 1, 2, 1]
     L = [2, 4, 2, 2, 3]
     L = [4, 3, 5, 1, 2]

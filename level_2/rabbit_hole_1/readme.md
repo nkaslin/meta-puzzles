@@ -18,5 +18,8 @@ $L_i \neq i$
 ## Solution
 <details>
   <summary>Spoiler</summary>
-  todo
+  The TLE solutions do cycle detection using the Turtoise and Hare algorithm
+  TODO: Figure out why it is too slow.
+
+  The working solution is just a slightly adjusted version of the solution for Rabbit Hole 2 (in level 3).
 </details>
