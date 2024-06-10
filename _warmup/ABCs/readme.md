@@ -4,3 +4,9 @@ Given three integers $A$, $B$, and $C$, determine their sum. Your task is to imp
 
 ## Constraints
 $1 \leq A, B, C \leq 100$
+
+## Solution
+<details>
+  <summary>Spoiler</summary>
+  ...
+</details>
