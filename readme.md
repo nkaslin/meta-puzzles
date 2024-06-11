@@ -12,7 +12,7 @@
 
 | Problem                    | Topics               | Runtime                | Memory      | Solved   |
 |----------------------------|----------------------|------------------------|-------------|----------|
-| [Cafeteria](./level_1/cafeteria/readme.md) | Math | $O(M\cdot \log M)$ | $O(M)$ | ⬜ |
+| [Cafeteria](./level_1/cafeteria/readme.md) | Math | $O(M\cdot \log M)$ | $O(M)$ | ✔️ |
 | [Director of Photography 1](./level_1/director_of_photography_1/readme.md) | Top-Down DP | $O(M \cdot (Y - X))$ | $O(M \cdot (Y - X))$ |  ✔️ |
 | [Kaitenzushi](./level_1/kaitenzushi/readme.md) | Array, Queue, Hash Set | $O(N)$ | $O(K)$ |  ✔️ |
 | [Rotary Lock 1](./level_1/rotary_lock_1/readme.md) | Math | $O(M)$ | $O(1)$ |  ✔️ |
