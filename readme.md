@@ -44,5 +44,5 @@
 ### Level 4
 | Problem                    | Topics               | Runtime                | Memory      | Solved   |
 |----------------------------|----------------------|------------------------|-------------|----------|
-| [Conveyor Chaos](./level_4/boss_fight/solution.py) | ... | $O()$ | $O()$ |  ⬜ |
+| [Conveyor Chaos](./level_4/conveyor_chaos/readme.md) | ... | $O()$ | $O()$ |  ⬜ |
 | [Mathematical Art](./level_4/mathematical_art/solution.py) | ... | $O()$ | $O()$ |  ⬜ |
