@@ -45,4 +45,4 @@
 | Problem                    | Topics               | Runtime                | Memory      | Solved   |
 |----------------------------|----------------------|------------------------|-------------|----------|
 | [Conveyor Chaos](./level_4/conveyor_chaos/readme.md) | ... | $O()$ | $O()$ |  ⬜ |
-| [Mathematical Art](./level_4/mathematical_art/solution.py) | ... | $O()$ | $O()$ |  ⬜ |
+| [Mathematical Art](./level_4/mathematical_art/readme.md) | sweep line, index compression, heap, Fenwick Tree | $O(NlogN)$ | $O(N)$ |  ✔️ |
