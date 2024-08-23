@@ -140,20 +140,20 @@ def getPlusSignCount(N: int, L: List[int], D: str) -> int:
         x_hor_start = hor_intervals[ptr_hor][0] if ptr_hor < len(hor_intervals) else float("inf")
         x_hor_end = hq[0][0] if len(hq) > 0 else float("inf")
 
-        if x_hor_start <= x_ver and x_hor_start <= x_hor_end:
-            _, x2, y = hor_intervals[ptr_hor]
-            heappush(hq, (x2, y))
-            fwt.update(idx_comp_map_y[y], 1)
-            ptr_hor += 1
-        elif x_hor_end <= x_ver:
+        if x_hor_end <= x_ver and x_hor_end <= x_hor_start:
             _, y = heappop(hq)
             fwt.update(idx_comp_map_y[y], -1)
-        else:
+        elif x_ver <= x_hor_start:
             _, y1, y2 = ver_intervals[ptr_ver]
             y1m, y2m = idx_comp_map_y[y1], idx_comp_map_y[y2]
             res += fwt.range_query(y1m + 1, y2m - 1)
             ptr_ver += 1
-
+        else:
+            _, x2, y = hor_intervals[ptr_hor]
+            heappush(hq, (x2, y))
+            fwt.update(idx_comp_map_y[y], 1)
+            ptr_hor += 1
+            
     return res
 
 
@@ -178,3 +178,11 @@ if __name__ == "__main__":
     L = [7, 5, 6, 9, 5, 8, 4, 7, 3, 6, 2, 5, 1, 8, 4, 4, 8, 10]
     D = "ULDRULDRULDRULURDU"
     print(getPlusSignCount(N, L, D), 16)  # Expected output: 16
+
+    N = 8
+    L = [1, 2, 2, 1, 1, 2, 2, 1]
+    D = "UDUDLRLR"
+    print(getPlusSignCount(2*N, 2*L, 2*D), 1)  # Expected output: 1
+
+    D = "UDRULRULDULDRLDR"
+    print(getPlusSignCount(len(D), [1] * len(D), D), 1)  # Expected output: 1
