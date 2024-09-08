@@ -31,7 +31,7 @@
 | [Rabbit Hole 1](./level_2/rabbit_hole_1/solution.py) | Digraph, Topological Sort, Kosaraju | $O()$ | $O()$ | ✔️ |
 | [Rotary Lock 2](./level_2/rotary_lock_2/readme.md) | ... | $O()$ | $O()$ |  ⬜ |
 | [Scoreboard Interference 2](./level_2/scoreboard_interference_2/solution.py) | ... | $O()$ | $O()$ |  ⬜ |
-| [Tunnel Time](./level_2/tunnel_time) | ... | $O()$ | $O()$ |  ⬜ |
+| [Tunnel Time](./level_2/tunnel_time) | Array, Math | $O(N \cdot logN)$ | $O(N)$ |  ✔️ |
 
 ### Level 3
 | Problem                    | Topics               | Runtime                | Memory      | Solved   |
